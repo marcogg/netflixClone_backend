@@ -1,0 +1,33 @@
+{
+  "name": "netflixclone_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcogg/netflixClone_backend.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Marco garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcogg/netflixClone_backend/issues"
+  },
+  "homepage": "https://github.com/marcogg/netflixClone_backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-error-handler": "^1.1.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  }
+}
